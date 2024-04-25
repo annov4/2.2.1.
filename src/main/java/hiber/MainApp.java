@@ -19,7 +19,7 @@ public class MainApp {
         userService.add(new User("Oleg", "Sidorov", "22@mail.ru", new Car("Volvo", 3)));
         userService.add(new User("Vasilyi", "Petrov", "33@mail.ru", new Car("BMV", 4)));
         System.out.println(userService.listUsers());
-        System.out.println(userService.getUserByCar("Volvo"));
+        System.out.println(userService.getUserByCar("Volvo", 3));
 
         context.close();
     }
